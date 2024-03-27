@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px;
+}
+/* nav {
+  display: flex;
+  text-justify: auto;
+  flex-wrap: wrap;
+  font-size: 20px;
+} */
+/* nav.logo-web {
+  display: flex;
+  text-wrap: wrap;
+  justify-content: center;
+} */
+
+ul,
+li {
+  display: flex;
+  gap: 15px 15px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:focus {
+  background-color: #ebe4e4;
+  color: #333;
+}
