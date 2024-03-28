@@ -1,28 +1,28 @@
 body {
-  font-family: sans-serif;
+  font-family: system-ui, sans-serif;
 }
-.container {
-  margin: 0 auto;
-  padding: 0 10px;
-  max-width: 960px;
-}
-/* nav {
-  display: flex;
-  text-justify: auto;
-  flex-wrap: wrap;
-  font-size: 20px;
-} */
-/* nav.logo-web {
-  display: flex;
-  text-wrap: wrap;
-  justify-content: center;
-} */
 
-ul,
-li {
+
+header{
   display: flex;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-wrap: wrap;
+
+}
+.logo{
+  text-size-adjust: 20px;
+  display: flex;
+  float: right;
+}
+
+ul, li {
+  display: inline-flex;
+  float: right;
   gap: 15px 15px;
   text-wrap: wrap;
+  text-decoration: none;
   text-align: center;
 }
 
