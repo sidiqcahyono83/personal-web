@@ -3,13 +3,15 @@ body {
 }
 
 
+
 header{
   display: flex;
   position: relative;
-  margin-left: 15px;
-  margin-right: 15px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px;
+  pading: 25px;
   text-wrap: wrap;
-
 }
 .logo{
   text-size-adjust: 20px;
@@ -17,13 +19,15 @@ header{
   float: right;
 }
 
-ul, li {
-  display: inline-flex;
-  float: right;
-  gap: 15px 15px;
-  text-wrap: wrap;
-  text-decoration: none;
-  text-align: center;
+ul{
+ display: flex;
+ gap: 20px;
+ margin-top: auto;
+ text-decoration: none;
+
+}
+li {
+  list-style: none;
 }
 
 a {
@@ -35,4 +39,8 @@ a:hover,
 a:focus {
   background-color: #ebe4e4;
   color: #333;
+}
+
+p{
+  justify-content: center;
 }
