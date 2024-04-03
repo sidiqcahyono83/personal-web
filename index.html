@@ -6,95 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="index.css" />
-
-    <title>Cahyono Muslim Sidiq | Home</title>
+    <title>Cahyono Muslim Sidiq | Web Developer</title>
   </head>
 
   <body>
-    <!-- <div class="container"> -->
-    <header>
-      <h1 class="logo">CMS</h1>
-      <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Portfolio</a></li>
-      </ul>
-    </header>
-
-    <h1 class="text-center">Hi Saya Cahyono Muslim Sidiq</h1>
-    <h3>
-      Saya seorang developer, dan saya seorang Perangkat Desa, saya sekarang
-      sedang belajar <strong>HTML, CSS, JavaScript</strong>
-    </h3>
-
-    <div class="card">
-      <img class="image-responsif" src="/images/cahyono.jpeg" alt="Cahyono" />
+    <div class="container mx-auto">
+      <nav
+        class="p-5 bg-white shadow-sm md:flex md:items-center md:justify-between"
+      >
+        <span
+          ><a
+            href="/"
+            class="flex justify-center text-4xl font-bold hover:text-blue-300 duration-200"
+            >CMS</a
+          ></span
+        >
+        <ul class="flex flex-wrap justify-center items-center gap-4">
+          <li>
+            <a
+              href="/"
+              class="text-2xl font-semibold hover:text-blue-400 duration-200"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              href="#ABOUT"
+              class="text-2xl font-semibold hover:text-blue-400 duration-200"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a
+              href="#CONTACT"
+              class="text-2xl font-semibold hover:text-blue-400 duration-200"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <h1 class="text-center">ABOUT</h1>
-    <p>
-      Menggabungkan peran sebagai perangkat desa dengan aspirasi untuk menjadi
-      seorang full stack developer membawa tantangan unik. Waktu dan energi yang
-      diperlukan untuk memperoleh keterampilan teknis dalam pengembangan
-      perangkat lunak dapat bersaing dengan tuntutan pekerjaan di lingkungan
-      pemerintahan setempat.
-    </p>
-    <p>
-      Manajemen waktu yang efektif dan komitmen yang kuat diperlukan untuk
-      menyeimbangkan kedua peran ini. Namun, ada juga peluang yang sangat
-      menarik. Keterampilan teknis yang diperoleh sebagai full stack developer
-      dapat digunakan untuk meningkatkan efisiensi dan efektivitas dalam
-      pekerjaan sebagai perangkat desa.
-    </p>
-    <p>
-      Pengembangan aplikasi atau sistem informasi khusus dapat membantu dalam
-      administrasi desa, pelacakan program-program pemerintah, atau komunikasi
-      dengan masyarakat. Selain itu, menggabungkan keahlian dalam pelayanan
-      masyarakat dengan keterampilan teknis dalam teknologi informasi dapat
-      membuka pintu bagi inovasi dan kemajuan di kedua bidang tersebut.
-      Solusi-solusi yang diciptakan dapat memberikan dampak positif yang
-      signifikan bagi masyarakat dan memperluas peluang karir dalam industri
-      yang terus berkembang.
-    </p>
+    <main class="container mx-auto mx-2 my-2">
+      <h1
+        class="text-center py-2 my-1 text-wrap font-extralight font-semibold text-2xl text-blue-950"
+      >
+        Hi Saya Cahyono Muslim Sidiq
+      </h1>
+      <h3 class="mx-4 my-6 text-xl text-center">
+        Saya seorang developer, dan saya seorang Perangkat Desa, saya sekarang
+        sedang belajar <strong>HTML, CSS, JavaScript</strong>
+      </h3>
 
-    <h1 class="text-center">KONTAK SAYA</h1>
-    <div class="text-center">
-      <label for="logo-whatsapp"
-        >whatsapp<ion-icon name="logo-whatsapp"></ion-icon
-      ></label>
-      <a href=""></a>
+      <div class="rounded-lg overflow-hidden mx-4 py-6">
+        <img
+          class="max-h-72 w-full size-auto object-cover"
+          src="/images/cahyono.jpeg"
+          alt="Cahyono"
+        />
+      </div>
+    </main>
+    <section id="ABOUT" class="container mx-auto mx-2 my-2">
+      <h1 class="my-6 py-2 font-semibold text-2xl text-center">ABOUT</h1>
+      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
+        Menggabungkan peran sebagai perangkat desa dengan aspirasi untuk menjadi
+        seorang full stack developer membawa tantangan unik. Waktu dan energi
+        yang diperlukan untuk memperoleh keterampilan teknis dalam pengembangan
+        perangkat lunak dapat bersaing dengan tuntutan pekerjaan di lingkungan
+        pemerintahan setempat.
+      </p>
+      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
+        Manajemen waktu yang efektif dan komitmen yang kuat diperlukan untuk
+        menyeimbangkan kedua peran ini. Namun, ada juga peluang yang sangat
+        menarik. Keterampilan teknis yang diperoleh sebagai full stack developer
+        dapat digunakan untuk meningkatkan efisiensi dan efektivitas dalam
+        pekerjaan sebagai perangkat desa.
+      </p>
+      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
+        Pengembangan aplikasi atau sistem informasi khusus dapat membantu dalam
+        administrasi desa, pelacakan program-program pemerintah, atau komunikasi
+        dengan masyarakat. Selain itu, menggabungkan keahlian dalam pelayanan
+        masyarakat dengan keterampilan teknis dalam teknologi informasi dapat
+        membuka pintu bagi inovasi dan kemajuan di kedua bidang tersebut.
+        Solusi-solusi yang diciptakan dapat memberikan dampak positif yang
+        signifikan bagi masyarakat dan memperluas peluang karir dalam industri
+        yang terus berkembang.
+      </p>
+    </section>
 
-      <label for="logo-telegram"
-        >telegram<ion-icon name="paper-plane-outline"></ion-icon
-      ></label>
-      <a href=""></a>
+    <section id="CONTACT" class="container mx-auto mx-4 my-4 py-2 px-2">
+      <h1 class="my-6 py-2 font-semibold text-2xl text-center">KONTAK SAYA</h1>
+      <div class="bg-white rounded-xl shadow-lg p-8">
+        <form action="" class="flex flex-col space-y-2">
+          <div>
+            <label for="" class="text-sm">Name</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:right-2 focus:ring-gray-700"
+            />
+          </div>
+          <div>
+            <label for="" class="text-sm">Email</label>
+          </div>
+          <div>
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:right-2 focus:ring-gray-700"
+            />
+          </div>
+          <div>
+            <label for="" class="text-sm">Message</label>
+            <textarea
+              placeholder="Your Message"
+              rows="3"
+              class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:right-2 focus:ring-gray-700"
+            ></textarea>
+          </div>
+          <button
+            class="inline-block self-end bg-slate-400 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
+            type="submit"
+          >
+            Send Message
+          </button>
+        </form>
 
-      <label for="logo-facebook"
-        >facebook<ion-icon name="logo-facebook"></ion-icon
-      ></label>
-      <a href=""></a>
+        <div class="flex flex-wrap justify-center gap-4 mt-6">
+          <a href=""
+            ><span> whatsapp </span><ion-icon name="logo-whatsapp"></ion-icon
+          ></a>
+          <a href="">
+            telegram <ion-icon name="paper-plane-outline"></ion-icon
+          ></a>
+          <a href=""> facebook <ion-icon name="logo-facebook"></ion-icon></a>
+          <a href=""> github <ion-icon name="logo-github"></ion-icon></a>
+          <a href=""> youtube <ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+      </div>
+    </section>
 
-      <label for="logo-github"
-        >github<ion-icon name="logo-github"></ion-icon
-      ></label>
-      <a href=""></a>
-
-      <a href=""
-        ><label for="logo-youtube"
-          >youtube<ion-icon name="logo-youtube"></ion-icon
-        ></label>
-      </a>
-    </div>
-    <!-- </div> -->
-
-    <footer>
-      <h5>Disclaimer : Ini web belajar</h5>
-      <h5>copyright CMS : &copy; 2024</h5>
+    <footer class="container mx-auto bg-white shadow-md mx-4 my-4 py-2 px-2">
+      <h5 class="text-center">copyright CMS : &copy; 2024</h5>
     </footer>
 
     <script

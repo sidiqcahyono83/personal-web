@@ -1,42 +1,54 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Reddit Mono', sans-serif;
 
-} */
+}
 body {
-  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1080px;
 }
 
 .container{
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: fit-content;
  
 }
-header{
+@media (max-width: 744px) {
+  .left-header {
+    width: 100%;
+    text-align: center;
+  }
+}
+header {
   display: flex;
+  justify-items: flex-end;
   position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 100%;
   text-wrap: wrap;
   align-items: center;
 }
-h1, logo{
+h1,
+logo {
   text-size-adjust: 40px;
-  /* display: flex;
-  float: right; */
+  align-content: center;
 }
-h1,h3, div{
+h1,
+h3,
+div {
   text-align: center;
 }
 
-ul{
- display: inline-flex;
- gap: 20px;
- margin-top: auto;
- text-decoration: none;
-
+ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: auto;
+  text-decoration: none;
 }
 li {
   list-style: none;
@@ -54,40 +66,40 @@ a:focus {
   color: #333;
 }
 
-div, .card{
+div,
+.card {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 img {
   width: 100%;
   object-fit: contain;
 }
 
-p{
-  text-align:justify;
+p {
+  text-align: justify;
   height: 100%;
 }
-image-responsif{
+image-responsif {
   display: flex;
-  display:block; 
+  display: block;
   border-radius: 5px;
-
 }
 
-label, ion-icon{
-margin: 4px;
-padding: 4px;
-
+label,
+ion-icon {
+  margin: 4px;
+  padding: 4px;
+  display: flexbox;
 }
-ion--icon{
-  display: inline;
-  color: blue;
+ion-icon {
+  size-adjust: 40px;
 }
 
-footer{
+footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 15px;
   padding: 12px;
