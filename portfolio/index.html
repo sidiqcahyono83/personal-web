@@ -16,7 +16,7 @@
     <title>Cahyono Muslim Sidiq | Web Developer</title>
   </head>
 
-  <body>
+  <body ">
     <div class="container mx-auto">
       <nav
         class="p-5 bg-white shadow-sm md:flex md:items-center md:justify-between"
@@ -60,55 +60,59 @@
         </ul>
       </nav>
     </div>
-
-    <main class="container mx-auto mx-2 my-2">
-      <h1
-        class="text-center py-2 my-1 text-wrap font-extralight font-semibold text-2xl text-blue-950"
-      >
-        Hi Saya Cahyono Muslim Sidiq
-      </h1>
-      <h3 class="mx-4 my-6 text-xl text-center">
-        Saya seorang developer, dan saya seorang Perangkat Desa, saya sekarang
-        sedang belajar <strong>HTML, CSS, JavaScript</strong>
-      </h3>
-
-      <div class="rounded-lg overflow-hidden mx-4 py-6">
-        <img
-          class="max-h-72 w-full size-auto object-cover"
-          src="/images/cahyono.jpeg"
-          alt="Cahyono"
-        />
+    <main class="bg-slate-50">
+      <div class="flex items-center justify-center py-4">
+        <div class="flex">
+          
+          <div>
+            <div class="container mx-auto">
+              <h2 class="text-2xl font-bold my-4 text-extraligh text-center" >Portfolio</h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Portfolio Item 1 -->
+                <div class="border rounded-lg overflow-hidden shadow-md">
+                  <img src="portfolio-item-1.jpg" alt="Portfolio Item 1" class="w-full">
+                  <div class="p-4 ">
+                    <h3 class="text-lg font-semibold mb-2">Project 1</h3>
+                    <p class="text-sm">Description of project 1 goes here.</p>
+                  </div>
+                </div>
+            
+                <!-- Portfolio Item 2 -->
+                <div class="border rounded-lg overflow-hidden shadow-md">
+                  <img src="portfolio-item-2.jpg" alt="Portfolio Item 2" class="w-full">
+                  <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Project 2</h3>
+                    <p class="text-sm">Description of project 2 goes here.</p>
+                  </div>
+                </div>
+            
+                <!-- Portfolio Item 3 -->
+                <div class="border rounded-lg overflow-hidden shadow-md">
+                  <img src="portfolio-item-3.jpg" alt="Portfolio Item 3" class="w-full">
+                  <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Project 3</h3>
+                    <p class="text-sm">Description of project 3 goes here.</p>
+                  </div>
+                </div>
+            
+                <!-- Portfolio Item 4 -->
+                <div class="border rounded-lg overflow-hidden shadow-md">
+                  <img src="portfolio-item-4.jpg" alt="Portfolio Item 4" class="w-full">
+                  <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Project 4</h3>
+                    <p class="text-sm">Description of project 4 goes here.</p>
+                  </div>
+                </div>
+            
+                <!-- Add more portfolio items as needed -->
+              </div>
+            </div>
+            
+          </div>
+        </div>
       </div>
     </main>
-    <section id="ABOUT" class="container mx-auto mx-2 my-2">
-      <h1 class="my-6 py-2 font-semibold text-2xl text-center">ABOUT</h1>
-      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
-        Menggabungkan peran sebagai perangkat desa dengan aspirasi untuk menjadi
-        seorang full stack developer membawa tantangan unik. Waktu dan energi
-        yang diperlukan untuk memperoleh keterampilan teknis dalam pengembangan
-        perangkat lunak dapat bersaing dengan tuntutan pekerjaan di lingkungan
-        pemerintahan setempat.
-      </p>
-      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
-        Manajemen waktu yang efektif dan komitmen yang kuat diperlukan untuk
-        menyeimbangkan kedua peran ini. Namun, ada juga peluang yang sangat
-        menarik. Keterampilan teknis yang diperoleh sebagai full stack developer
-        dapat digunakan untuk meningkatkan efisiensi dan efektivitas dalam
-        pekerjaan sebagai perangkat desa.
-      </p>
-      <p class="text-justify mx-4 my-4 text-xl ttracking-wider">
-        Pengembangan aplikasi atau sistem informasi khusus dapat membantu dalam
-        administrasi desa, pelacakan program-program pemerintah, atau komunikasi
-        dengan masyarakat. Selain itu, menggabungkan keahlian dalam pelayanan
-        masyarakat dengan keterampilan teknis dalam teknologi informasi dapat
-        membuka pintu bagi inovasi dan kemajuan di kedua bidang tersebut.
-        Solusi-solusi yang diciptakan dapat memberikan dampak positif yang
-        signifikan bagi masyarakat dan memperluas peluang karir dalam industri
-        yang terus berkembang.
-      </p>
-    </section>
-
-    <section id="CONTACT" class="container mx-auto mx-4 my-4 py-2 px-2">
+    <section class="container mx-auto mx-4 my-4 py-2 px-2">
       <h1 class="my-6 py-2 font-semibold text-2xl text-center">KONTAK SAYA</h1>
       <div class="bg-white rounded-xl shadow-lg p-8">
         <form action="" class="flex flex-col space-y-2">
@@ -129,6 +133,16 @@
             <input
               type="email"
               placeholder="Your Email"
+              class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:right-2 focus:ring-gray-700"
+            />
+          </div>
+          <div>
+            <label for="" class="text-sm">Phone</label>
+          </div>
+          <div>
+            <input
+              type="number"
+              placeholder="Your Phone Number"
               class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:right-2 focus:ring-gray-700"
             />
           </div>
@@ -162,7 +176,7 @@
       </div>
     </section>
 
-    <footer class="container mx-auto bg-white shadow-md mx-4 my-4 py-2 px-2">
+    <footer class=" bg-slate-50 shadow-md py-2 px-2">
       <h5 class="text-center">copyright CMS : &copy; 2024</h5>
     </footer>
 
